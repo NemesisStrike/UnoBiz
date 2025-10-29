@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Oto';
+  src: url('../../assets/font/OtomanopeeOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.card-product {
+    border: 2px solid #000000;
+  cursor: pointer;
+  width: 100%;
+  max-width: 180px;
+  height: 220px;
+  background: linear-gradient(60deg, #080F24, #365AC0);
+  border-radius: 14px;
+  color: #FFFFFF;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 16px;
+}
+
+/* Hover aktif hanya di perangkat non-touch */
+/* @media (hover: hover) {
+  .card-product:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(54, 90, 192, 0.4);
+  }
+
+  .card-product:hover .card-img img {
+    transform: scale(1.1);
+  }
+} */
+
+/* Judul di atas */
+.card-product h5 {
+    /* height: 40px; */
+  text-align: center;
+  font-family: 'Oto', sans-serif;
+  font-size: 10px;
+  margin: 15px 0 15px 0;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+/* Gambar di bawah */
+.card-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 0 0 14px 14px;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}

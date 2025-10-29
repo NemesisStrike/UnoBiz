@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'Oto';
+  src: url('../../assets/font/OtomanopeeOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main-dashboard{
+  width: 100%;
+  /* background-color: #007bff; */
+}
+
+
+.section-category {
+    width: 100%;
+    display: flex;
+    gap: 1rem; /* jarak antar card */
+    padding: 10px;
+    overflow-x: auto; /* scroll horizontal */
+    scroll-behavior: smooth; /* animasi scroll smooth */
+}
+
+.section-category > * {
+  flex: 0 0 auto; /* card tetap ukuran asli, tidak mengecil */
+}
+
+.section-category::-webkit-scrollbar {
+  height: 8px;
+}
+
+.section-category::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+
+.section-category::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.section-search{
+    position: relative;
+}
+.section-search .overlay{
+    position: absolute;
+    top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-search .overlay p{
+    font-family: 'Oto';
+    color: #FFFFFF;
+}
+
+.section-search .overlay .input-group {
+    width: 65%;
+    height: 35px;
+    filter: brightness(70%);
+    background-color: rgba(0, 0, 0, 0.5); /* hitam 50% transparan */
+    border-radius: 8px;
+    border: solid 2px #ADA9A9;
+}
+
+.section-search .overlay .input-group input::placeholder, .section-search .overlay .input-group i{
+    color: #FFFFFF;
+}
+
+.section-search .overlay .filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  max-width: 320px; /* lebih kecil */
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.section-search .overlay .filters select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 4px 24px 4px 8px; /* lebih kecil */
+  font-size: 11px; /* font kecil */
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23333' height='14' width='14' xmlns='http://www.w3.org/2000/svg'><path d='M4 5l3 3 3-3z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+}
+
+.section-search .overlay .filters select:hover {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.section-search .overlay .filters select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0,123,255,0.3);
+}
+
+.section-search .overlay .filters option {
+  font-size: 11px;
+  color: #333;
+}
+
+option, option:active{
+    font-size: 10px;
+}
+
+.section-produk{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 15px;
+}
+
+.section-produk .top{
+  display: flex;
+  justify-content: right;
+}
+.section-produk .top button{
+    height: 35px;
+    border-radius: 8px;
+    font-size: 12px;
+    background-color: #10B981;
+}
+
+.section-produk .produk{
+  flex-wrap: wrap;
+}
+.section-why {
+  padding: 40px 0;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+/* Judul biru di tengah */
+.why-title {
+  background-color: #1E3A8A;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+}
+
+/* Kartu gambar */
+.why-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.why-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsif */
+@media (min-width: 600px) {
+  .section-category{
+    justify-content: center;
+  }
+  .why-title {
+    width: 70%;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-search .overlay{
+    margin-top: 50px;
+  }
+  .section-search .overlay p{
+    font-size: 50px;
+  }
+
+  .section-search .overlay .input-group{
+    width: 50%;
+    height: 50px;
+  }
+
+  .why-title {
+    width: 50%;
+    font-size: 1.6rem;
+  }
+}

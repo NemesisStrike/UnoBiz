@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "nama": "Warung Makan Paijo",
+        "kategori": "Makanan",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Warung makan sederhana dengan menu rumahan khas Jawa yang lezat dan harga terjangkau.",
+        "produk_unggulan": [
+            "Nasi Ayam Goreng",
+            "Sayur Lodeh",
+            "Tempe Mendoan"
+        ],
+        "kontak": {
+            "telepon": "081234567801",
+            "email": "warungpaijo@gmail.com",
+            "instagram": "@warungpaijo"
+        },
+        "gambar": "src/assets/img/umkm/paijo/logo-paijo.png"
+    },
+    {
+        "id": 2,
+        "nama": "Mie Ayam \"Sami Asih\"",
+        "kategori": "Makanan",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Menyajikan mie ayam dengan cita rasa khas nusantara dan porsi melimpah, cocok untuk makan siang.",
+        "produk_unggulan": [
+            "Mie Ayam Original",
+            "Mie Ayam Bakso",
+            "Mie Ayam Pangsit"
+        ],
+        "kontak": {
+            "telepon": "081234567802",
+            "email": "mieayamsamiasih@gmail.com",
+            "instagram": "@mieayam_samiasih"
+        },
+        "gambar": "src/assets/img/umkm/samiasih/logo-samiasih.png"
+    },
+    {
+        "id": 3,
+        "nama": "Laris Wedari",
+        "kategori": "Kafe & Restoran",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Tempat makan modern dengan suasana asri dan nyaman, menyajikan menu nusantara dan minuman segar.",
+        "produk_unggulan": [
+            "Nasi Goreng Spesial",
+            "Ayam Bakar Wedari",
+            "Es Wedang Seruni"
+        ],
+        "kontak": {
+            "telepon": "081234567803",
+            "email": "lariswedari@gmail.com",
+            "instagram": "@lariswedari"
+        },
+        "gambar": "src/assets/img/umkm/laris/logo-laris.png"
+    },
+    {
+        "id": 4,
+        "nama": "Galeri Laundry",
+        "kategori": "Jasa",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Jasa laundry profesional dengan layanan cepat, bersih, dan wangi. Mengutamakan kualitas dan ketepatan waktu.",
+        "produk_unggulan": [
+            "Laundry Kiloan",
+            "Cuci Setrika Express",
+            "Dry Clean Premium"
+        ],
+        "kontak": {
+            "telepon": "081234567804",
+            "email": "galerilaundry@gmail.com",
+            "instagram": "@galerilaundry"
+        },
+        "gambar": "src/assets/img/umkm/laundry/logo-laundry.png"
+    },
+    {
+        "id": 5,
+        "nama": "Angkringan Pak Kardun",
+        "kategori": "Makanan",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Angkringan malam hari dengan aneka sate, nasi kucing, dan minuman hangat khas Yogyakarta.",
+        "produk_unggulan": [
+            "Sate Usus",
+            "Nasi Kucing Tempe Orek",
+            "Wedang Jahe"
+        ],
+        "kontak": {
+            "telepon": "081234567805",
+            "email": "angkringanpakkardun@gmail.com",
+            "instagram": "@angkringanpakkardun"
+        },
+        "gambar": "src/assets/img/umkm/angkringan/logo-angkringan.png"
+    }
+]
