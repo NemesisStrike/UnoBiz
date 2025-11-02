@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Oto';
+  src: url('../../assets/font/OtomanopeeOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.list-umkm {
+  font-family: 'Oto';
+  width: 100%;
+  background-color: #fff;
+}
+
+/* Hero Search */
+.list-hero {
+  background: url("../../assets/img/BackgroundSearch.png") center/cover no-repeat;
+  text-align: center;
+  padding: 240px 20px;
+  color: white;
+}
+.list-hero p {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Search Input */
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.filters-container .input-group {
+  position: relative;
+  width: 60%;
+}
+.filters-container .input-group input {
+  width: 100%;
+  padding: 10px 35px 10px 12px;
+  border-radius: 8px;
+  border: 2px solid white;
+  background: rgba(0,0,0,0.4);
+  color: white;
+}
+.filters-container .input-group i {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+/* Dropdown Filter */
+.filters-select {
+  display: flex;
+  gap: 8px;
+}
+.filters-select select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* Produk Grid */
+.list-content {
+  width: 90%;
+  margin: 40px auto;
+}
+
+/* Jika Tidak Ada Data */
+.no-data {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  color: #888;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 40px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border: 1px solid #1E3A8A;
+  background: white;
+  color: #1E3A8A;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pagination button.active {
+  background: #1E3A8A;
+  color: white;
+  font-weight: bold;
+}
+
+.pagination button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* === Override Bootstrap Grid: 5 Card per Baris === */
+@media (min-width: 992px) {
+  .list-content .col-lg-2 {
+    flex: 0 0 20% !important;
+    max-width: 20% !important;
+  }
+}
+
+/* Responsif: 3 kartu per baris di tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .list-content .col-md-3 {
+    flex: 0 0 33.3333% !important;
+    max-width: 33.3333% !important;
+  }
+}
+
+/* Responsif: 2 kartu per baris di HP besar (600–767px) */
+@media (min-width: 600px) and (max-width: 767px) {
+  .list-content .col-sm-4,
+  .list-content .col-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    justify-content: center;
+  }
+}
+
+/* Responsif: 1 kartu per baris di HP kecil (<600px) */
+@media (max-width: 599px) {
+  .list-content .col-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    justify-content: center;
+  }
+}
+
+
+

@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Oto';
+  src: url('../../assets/font/OtomanopeeOne-Regular.ttf') format('truetype');
+}
+
+/* WRAPPER */
+.detail-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* CONTAINER */
+.detail-container {
+  display: flex;
+  width: 100%;
+  max-width: 950px;
+  height: 400px; /* fix tinggi agar stabil */
+  background-color: #1E3A8A;
+  color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.5);
+}
+
+/* LEFT IMAGE AREA */
+.detail-left {
+  flex: 1;
+  position: relative;
+  height: 100%; /* fix tinggi */
+  background-color: #000;
+}
+
+.detail-main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* gambar sesuai area */
+}
+
+/* NAVIGATION BUTTONS */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* selalu center */
+  background: rgba(255,255,255,0.3);
+  border: none;
+  font-size: 24px;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.nav-btn:hover {
+  background: rgba(255,255,255,0.6);
+}
+
+.nav-btn.left { left: 12px; }
+.nav-btn.right { right: 12px; }
+
+/* TITLE OVERLAY */
+.title-overlay {
+  position: absolute;
+  bottom: 12px;
+  left: 14px;
+  font-family: 'Oto';
+  font-size: 1.2rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+/* RIGHT DETAIL CONTENT */
+.detail-right {
+  flex: 1;
+  padding: 24px;
+  position: relative;
+  background-image: url('../../assets/img/ornament-flower.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 180px;
+}
+
+/* CLOSE BUTTON */
+.close-btn {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* TEXT */
+.detail-title {
+  font-family: 'Oto';
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.detail-desc {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin-bottom: 50px;
+}
+
+.detail-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+/* THUMBNAIL ROW */
+.thumb-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.thumb-img {
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: 0.25s;
+  border: 2px solid transparent;
+}
+
+.thumb-img:hover,
+.thumb-img.active {
+  opacity: 1;
+  transform: scale(1.07);
+  border-color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .detail-container {
+    flex-direction: column;
+    height: auto; /* biar fleksibel di mobile */
+  }
+
+  .detail-left {
+    height: 260px;
+  }
+
+  .detail-main-img {
+    height: 100%;
+  }
+
+  .detail-right {
+    text-align: center;
+    background-size: 130px;
+  }
+
+  .thumb-row {
+    justify-content: center;
+  }
+}
