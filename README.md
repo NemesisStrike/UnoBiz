@@ -18,7 +18,7 @@ UnoBiz adalah platform berbasis web untuk membantu UMKM mempromosikan produk mer
 ⚙️ Cara Menjalankan Project
 
   1. Clone Repository
-    git clone https://github.com/username/unobiz.git
+    git clone https://github.com/NemesisStrike/UnoBiz.git
     cd unobiz
 
   2. Install Dependencies
