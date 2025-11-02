@@ -1,54 +1,56 @@
-/* 🔹 Pastikan seluruh halaman putih penuh */
+/* 🔹 Latar belakang seluruh layar putih */
 body, html {
   background-color: #ffffff;
   margin: 0;
   padding: 0;
 }
 
-/* Jika ada container utama (misal .main-content / .content-wrapper / .dashboard-body) */
-.main-content,
-.content-wrapper,
-.dashboard-body {
-  background-color: #ffffff !important;
+/* 🔹 Pembungkus penuh */
+.menu-bg {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 40px 0;
+}
+
+/* 🔹 Card besar tunggal dengan border */
+.menu-wrapper {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc; /* hanya satu border */
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+/* 🔹 Section Menu (tanpa border, tanpa background tambahan) */
+.menu-section {
+  color: #000;
   padding: 0;
   margin: 0;
+  background: none; /* hilangkan background putih tambahan */
+  border: none; /* hilangkan border ganda */
+  box-shadow: none;
 }
 
-/* 🔹 Section Menu dengan tampilan seperti card */
-.menu-section {
-  background: #fff;
-  color: #000;
-  padding: 30px;
-  margin: 0 auto; /* hilangkan jarak atas dan bawah */
-  border-radius: 12px;
-  width: 90%;
-  max-width: 1200px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* 🔹 Agar menempel dengan Maps */
-.menu-section + .maps-section {
-  margin-top: 0 !important;
-}
-
-/* 🔹 Grid card menu */
+/* 🔹 Grid produk */
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   justify-items: center;
 }
 
-/* 🔹 Kartu menu individual */
+/* 🔹 Card produk */
 .menu-card {
   position: relative;
   background-color: #fff;
-  border-radius: 12px;
   overflow: hidden;
   width: 100%;
-  max-width: 200px;
+  max-width: 230px;
   height: 280px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 8px;
   transition: transform 0.3s ease;
   cursor: pointer;
 }
@@ -57,14 +59,14 @@ body, html {
   transform: scale(1.03);
 }
 
-/* 🔹 Gambar menu */
+/* 🔹 Gambar produk */
 .menu-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* 🔹 Info dalam kartu */
+/* 🔹 Info di bawah gambar */
 .menu-info {
   position: absolute;
   bottom: 0;
@@ -74,23 +76,10 @@ body, html {
   color: white;
   text-align: left;
   padding: 10px 14px;
-  border-radius: 0 0 12px 12px;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 8px 8px;
 }
 
-.menu-info h5 {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.menu-info p {
-  margin: 3px 0 0;
-  font-size: 13px;
-  font-weight: 400;
-}
-
-/* 🔹 Pagination */
+/* 🔹 Pagination di dalam card pembungkus */
 .pagination {
   display: flex;
   justify-content: center;
@@ -123,3 +112,13 @@ body, html {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+/* 🔹 Posisi judul sama seperti Lokasi UMKM */
+.menu-title {
+  font-size: 25px;            /* sama seperti .map-title */
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  margin: 40px 0 15px 45px;   /* posisi sejajar kiri seperti Lokasi UMKM */
+}
+

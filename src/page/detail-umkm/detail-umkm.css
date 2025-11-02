@@ -371,3 +371,7 @@
   box-shadow: none;
   border-top: none;
 }
+
+.map-title{
+  font-size: 25px;
+}

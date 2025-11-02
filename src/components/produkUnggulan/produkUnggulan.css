@@ -96,3 +96,12 @@
   position: absolute;
   right: 40px;
 }
+
+/* 🔹 Posisi & ukuran sama dengan Menu dan Lokasi UMKM */
+.produk-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  margin: 40px 0 15px 45px;
+}
