@@ -88,5 +88,134 @@
             "instagram": "@angkringanpakkardun"
         },
         "gambar": "src/assets/img/umkm/angkringan/logo-angkringan.png"
+    },
+    {
+        "id": 6,
+        "nama": "Angkringan Pak Kardun",
+        "kategori": "Makanan",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Angkringan malam hari dengan aneka sate, nasi kucing, dan minuman hangat khas Yogyakarta.",
+        "produk_unggulan": [
+            "Sate Usus",
+            "Nasi Kucing Tempe Orek",
+            "Wedang Jahe"
+        ],
+        "kontak": {
+            "telepon": "081234567805",
+            "email": "angkringanpakkardun@gmail.com",
+            "instagram": "@angkringanpakkardun"
+        },
+        "gambar": "src/assets/img/umkm/angkringan/logo-angkringan.png"
+    },
+    {
+        "id": 7,
+        "nama": "Angkringan Pak Kardun",
+        "kategori": "Makanan",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Angkringan malam hari dengan aneka sate, nasi kucing, dan minuman hangat khas Yogyakarta.",
+        "produk_unggulan": [
+            "Sate Usus",
+            "Nasi Kucing Tempe Orek",
+            "Wedang Jahe"
+        ],
+        "kontak": {
+            "telepon": "081234567805",
+            "email": "angkringanpakkardun@gmail.com",
+            "instagram": "@angkringanpakkardun"
+        },
+        "gambar": "src/assets/img/umkm/angkringan/logo-angkringan.png"
+    },
+    {
+        "id": 8,
+        "nama": "Angkringan Pak Kardun",
+        "kategori": "Makanan",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Angkringan malam hari dengan aneka sate, nasi kucing, dan minuman hangat khas Yogyakarta.",
+        "produk_unggulan": [
+            "Sate Usus",
+            "Nasi Kucing Tempe Orek",
+            "Wedang Jahe"
+        ],
+        "kontak": {
+            "telepon": "081234567805",
+            "email": "angkringanpakkardun@gmail.com",
+            "instagram": "@angkringanpakkardun"
+        },
+        "gambar": "src/assets/img/umkm/angkringan/logo-angkringan.png"
+    }
+    ,
+    {
+        "id": 9,
+        "nama": "Angkringan Pak Kardun",
+        "kategori": "Makanan",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Angkringan malam hari dengan aneka sate, nasi kucing, dan minuman hangat khas Yogyakarta.",
+        "produk_unggulan": [
+            "Sate Usus",
+            "Nasi Kucing Tempe Orek",
+            "Wedang Jahe"
+        ],
+        "kontak": {
+            "telepon": "081234567805",
+            "email": "angkringanpakkardun@gmail.com",
+            "instagram": "@angkringanpakkardun"
+        },
+        "gambar": "src/assets/img/umkm/angkringan/logo-angkringan.png"
+    }
+    ,
+    {
+        "id": 10,
+        "nama": "Angkringan Pak Kardun",
+        "kategori": "Makanan",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Angkringan malam hari dengan aneka sate, nasi kucing, dan minuman hangat khas Yogyakarta.",
+        "produk_unggulan": [
+            "Sate Usus",
+            "Nasi Kucing Tempe Orek",
+            "Wedang Jahe"
+        ],
+        "kontak": {
+            "telepon": "081234567805",
+            "email": "angkringanpakkardun@gmail.com",
+            "instagram": "@angkringanpakkardun"
+        },
+        "gambar": "src/assets/img/umkm/angkringan/logo-angkringan.png"
+    }
+    ,
+    {
+        "id": 11,
+        "nama": "Angkringan Pak Kardun",
+        "kategori": "Makanan",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Angkringan malam hari dengan aneka sate, nasi kucing, dan minuman hangat khas Yogyakarta.",
+        "produk_unggulan": [
+            "Sate Usus",
+            "Nasi Kucing Tempe Orek",
+            "Wedang Jahe"
+        ],
+        "kontak": {
+            "telepon": "081234567805",
+            "email": "angkringanpakkardun@gmail.com",
+            "instagram": "@angkringanpakkardun"
+        },
+        "gambar": "src/assets/img/umkm/angkringan/logo-angkringan.png"
+    },
+    {
+        "id": 12,
+        "nama": "Angkringan Pak Kardun",
+        "kategori": "Makanan",
+        "lokasi": "Depok, Jawa Barat",
+        "deskripsi": "Angkringan malam hari dengan aneka sate, nasi kucing, dan minuman hangat khas Yogyakarta.",
+        "produk_unggulan": [
+            "Sate Usus",
+            "Nasi Kucing Tempe Orek",
+            "Wedang Jahe"
+        ],
+        "kontak": {
+            "telepon": "081234567805",
+            "email": "angkringanpakkardun@gmail.com",
+            "instagram": "@angkringanpakkardun"
+        },
+        "gambar": "src/assets/img/umkm/angkringan/logo-angkringan.png"
     }
 ]
