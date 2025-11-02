@@ -3,8 +3,10 @@
         "id": 1,
         "nama": "Warung Makan Paijo",
         "kategori": "Makanan",
-        "lokasi": "Depok, Jawa Barat",
+        "lokasi": "Delta Silicon II, Jl. Gaharu Blok F3, Cibatu, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530",
         "deskripsi": "Warung makan sederhana dengan menu rumahan khas Jawa yang lezat dan harga terjangkau.",
+        "latitude": -6.349786286028026,
+        "longitude": 107.15051826007758,
         "produk_unggulan": [
             "Nasi Ayam Goreng",
             "Sayur Lodeh",
@@ -21,7 +23,7 @@
         "id": 2,
         "nama": "Mie Ayam \"Sami Asih\"",
         "kategori": "Makanan",
-        "lokasi": "Depok, Jawa Barat",
+        "lokasi": "Cibatu, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530",
         "deskripsi": "Menyajikan mie ayam dengan cita rasa khas nusantara dan porsi melimpah, cocok untuk makan siang.",
         "produk_unggulan": [
             "Mie Ayam Original",
@@ -39,7 +41,7 @@
         "id": 3,
         "nama": "Laris Wedari",
         "kategori": "Kafe & Restoran",
-        "lokasi": "Depok, Jawa Barat",
+        "lokasi": "Jl. Taman Golf Selatan III, Sertajaya, Kec. Cikarang Tim., Kabupaten Bekasi, Jawa Barat 17530",
         "deskripsi": "Tempat makan modern dengan suasana asri dan nyaman, menyajikan menu nusantara dan minuman segar.",
         "produk_unggulan": [
             "Nasi Goreng Spesial",
@@ -57,7 +59,7 @@
         "id": 4,
         "nama": "Galeri Laundry",
         "kategori": "Jasa",
-        "lokasi": "Depok, Jawa Barat",
+        "lokasi": "Jl. H. Jamil Desa Serang No.RT02/02, Serang, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17532",
         "deskripsi": "Jasa laundry profesional dengan layanan cepat, bersih, dan wangi. Mengutamakan kualitas dan ketepatan waktu.",
         "produk_unggulan": [
             "Laundry Kiloan",
@@ -75,8 +77,10 @@
         "id": 5,
         "nama": "Angkringan Pak Kardun",
         "kategori": "Makanan",
-        "lokasi": "Depok, Jawa Barat",
+        "lokasi": "Jl. Irigasi Raya, Sertajaya, Kec. Cikarang Tim., Kabupaten Bekasi, Jawa Barat 17530",
         "deskripsi": "Angkringan malam hari dengan aneka sate, nasi kucing, dan minuman hangat khas Yogyakarta.",
+        "latitude" : -6.307855088320893,
+        "longitude": 107.16921869535477,
         "produk_unggulan": [
             "Sate Usus",
             "Nasi Kucing Tempe Orek",

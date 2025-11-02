@@ -1,0 +1,98 @@
+.section-produk-unggulan {
+  width: 100%;
+  padding: 50px 0;
+  background: linear-gradient(180deg, #1e3a8a 0%, #0f1e5a 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+.judul-produk {
+  text-align: left;
+  margin-left: 30px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  position: absolute;
+  transition: all 0.6s ease;
+  opacity: 0.6;
+  transform: scale(0.7);
+  cursor: pointer;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.slide img {
+  width: 420px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 3;
+}
+
+.slide.prev {
+  transform: translateX(-250px) scale(0.8);
+  z-index: 2;
+}
+
+.slide.next {
+  transform: translateX(250px) scale(0.8);
+  z-index: 2;
+}
+
+.slide.hidden {
+  opacity: 0;
+  transform: scale(0.5);
+  z-index: 1;
+}
+
+.arrow-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: background 0.3s;
+  z-index: 5;
+  border-radius: 8px;
+}
+
+.arrow-btn:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.arrow-btn.left {
+  position: absolute;
+  left: 40px;
+}
+
+.arrow-btn.right {
+  position: absolute;
+  right: 40px;
+}

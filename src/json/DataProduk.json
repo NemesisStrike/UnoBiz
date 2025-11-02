@@ -1,0 +1,108 @@
+{
+    "Warung Makan Paijo": [
+        {
+            "Nama Produk": "Nasi",
+            "Harga": "5000",
+            "Deskripsi": "Nasi putih hangat, sumber karbohidrat utama, memiliki tekstur lembut dan rasa netral yang sempurna untuk dipadukan dengan lauk apa pun.",
+            "Gambar": "src/assets/img/umkm/paijo/nasi.png"
+        },
+        {
+            "Nama Produk": "Ayam Goreng",
+            "Harga": "8000",
+            "Deskripsi": "Potongan ayam yang digoreng hingga matang dengan kulit yang renyah dan bumbu meresap hingga ke daging. Rasanya gurih dan beraroma rempah.",
+            "Gambar": "src/assets/img/umkm/paijo/ayam goreng.png"
+        },
+        {
+            "Nama Produk": "Ayam Bakar",
+            "Harga": "8000",
+            "Deskripsi": "Potongan ayam yang dibakar dengan lumuran bumbu manis gurih, seperti kecap manis dan rempah pilihan. Dagingnya empuk dengan aroma bakaran yang khas.",
+            "Gambar": "src/assets/img/umkm/paijo/ayam bakar.png"
+        },
+        {
+            "Nama Produk": "Otak - Otak",
+            "Harga": "5000",
+            "Deskripsi": "Olahan daging ikan tenggiri yang dibungkus dengan daun pisang dan dipanggang atau dibakar. Rasanya gurih ikan, kenyal, dan sering disajikan dengan saus kacang atau bumbu balado pedas.",
+            "Gambar": "src/assets/img/umkm/paijo/otak otak.png"
+        },
+        {
+            "Nama Produk": "Orek",
+            "Harga": "5000",
+            "Deskripsi": "Potongan tempe atau tahu yang dimasak dengan bumbu kecap manis, cabai, dan rempah lainnya. Memiliki rasa manis, gurih, dan sedikit pedas dengan tekstur yang lembut.",
+            "Gambar": "src/assets/img/umkm/paijo/orek.png"
+        },
+        {
+            "Nama Produk": "Bakso",
+            "Harga": "5000",
+            "Deskripsi": "Bola-bola daging sapi yang kenyal, dimasak dan dilumuri dengan bumbu balado khas Minangkabau. Bumbu ini kaya akan cabai merah giling, bawang merah, dan rempah lainnya, menghasilkan perpaduan rasa gurih dan pedas yang intens, sangat cocok disantap bersama nasi hangat.",
+            "Gambar": "src/assets/img/umkm/paijo/bakso.png"
+        },
+        {
+            "Nama Produk": "Sayur Sop",
+            "Harga": "3000",
+            "Deskripsi": "Sup sayuran yang berisi wortel, kentang, buncis, kembang kol, dan potongan ayam atau bakso, dimasak dalam kuah kaldu bening dengan bumbu bawang putih dan merica. Rasanya ringan, segar, dan menyehatkan.",
+            "Gambar": "src/assets/img/umkm/paijo/sayur sop.png"
+        },
+        {
+            "Nama Produk": "Sayur Kangkung",
+            "Harga": "3000",
+            "Deskripsi": "Tumisan daun kangkung yang dimasak cepat dengan bumbu bawang putih, cabai, dan sering ditambahkan terasi. Rasanya gurih, sedikit pedas, dengan tekstur kangkung yang masih renyah.",
+            "Gambar": "src/assets/img/umkm/paijo/sayur kangkung.png"
+        },
+        {
+            "Nama Produk": "Telor Dadar",
+            "Harga": "5000",
+            "Deskripsi": "Telur yang dikocok dan didadar (digoreng melebar) dengan bumbu garam, merica, dan sering ditambahkan irisan daun bawang atau cabai. Rasanya gurih dan lembut.",
+            "Gambar": "src/assets/img/umkm/paijo/telor dadar.png"
+        },
+        {
+            "Nama Produk": "Kikil",
+            "Harga": "3000",
+            "Deskripsi": "Olahan kulit sapi yang direbus dan dimasak dengan bumbu pedas, santan, atau kecap. Memiliki tekstur kenyal dan lembut dengan rasa yang kaya bumbu.",
+            "Gambar": "src/assets/img/umkm/paijo/kikil.png"
+        },
+        {
+            "Nama Produk": "Usus",
+            "Harga": "5000",
+            "Deskripsi": "Olahan usus ayam atau sapi yang dibersihkan dan dimasak, bisa digoreng kering, ditumis, atau dibacem. Rasanya gurih, dengan tekstur yang kenyal dan sering beraroma rempah.",
+            "Gambar": "src/assets/img/umkm/paijo/usus.png"
+        }
+    ],
+    "Angkringan Pak Kardun": [
+        {
+            "Nama Produk": "Sate Usus",
+            "Harga": "3000",
+            "Deskripsi": "Sate usus ayam khas angkringan yang dimasak dengan bumbu kecap manis gurih. Teksturnya empuk dan rasanya khas, cocok disantap sebagai lauk atau camilan bersama nasi hangat.",
+            "Gambar": "src/assets/img/umkm/angkringan/sate-usus.png"
+        },
+        {
+            "Nama Produk": "Sate Ati Ampela",
+            "Harga": "4000",
+            "Deskripsi": "Perpaduan ati dan ampela ayam yang dibumbui kecap manis gurih khas angkringan. Dimasak hingga empuk dan beraroma sedap, cocok dinikmati sebagai lauk atau teman nasi hangat.",
+            "Gambar": "src/assets/img/umkm/angkringan/atiampela.png"
+        },
+        {
+            "Nama Produk": "Nasi Bakar Tongkol",
+            "Harga": "7000",
+            "Deskripsi": "Nasi berbumbu gurih berisi suwir ikan tongkol pedas yang dibungkus daun pisang, lalu dibakar hingga harum. Rasanya lezat dan menggugah selera khas masakan tradisional.",
+            "Gambar": "src/assets/img/umkm/angkringan/nasibakar.png"
+        },
+        {
+            "Nama Produk": "Nasi Kucing Teri",
+            "Harga": "4000",
+            "Deskripsi": "Nasi gurih berisi campuran teri pedas dan bumbu rempah khas angkringan, dibungkus daun pisang lalu dibakar hingga harum. Nikmat disantap hangat dengan sambal dan lalapan.",
+            "Gambar": "src/assets/img/umkm/angkringan/nasiteri.png"
+        },
+        {
+            "Nama Produk": "Sate Telor Puyuh",
+            "Harga": "4000",
+            "Deskripsi": "Telur puyuh rebus yang dimasak dengan bumbu kecap manis gurih khas angkringan, lalu ditusuk dan dibakar hingga beraroma sedap. Cocok sebagai lauk atau camilan.",
+            "Gambar": "src/assets/img/umkm/angkringan/sate-telur.png"
+        },
+        {
+            "Nama Produk": "Wedang Susu",
+            "Harga": "12000",
+            "Deskripsi": "Minuman hangat khas angkringan dari campuran susu dan gula, disajikan panas untuk menghangatkan tubuh. Rasanya manis lembut dan menenangkan.",
+            "Gambar": "src/assets/img/umkm/angkringan/wedang-susu.png"
+        }
+    ]
+}
