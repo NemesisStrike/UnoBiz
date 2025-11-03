@@ -7,9 +7,9 @@ const Carousel = () => {
   return (
     <div
       id="heroCarousel"
-      className="carousel slide"
+      className="container-carousel carousel slide"
       data-bs-ride="carousel"
-      style={{ maxHeight: "500px", overflow: "hidden" }}
+      style={{ maxHeight: "500px", overflow: "hidden", position:"relative" }}
     >
       {/* Indicator */}
       <div className="carousel-indicators">
