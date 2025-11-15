@@ -33,6 +33,7 @@ const ProdukUnggulan = ({ namaUmkm, handleClick }) => {
     <section className="section-produk-unggulan w-100">
       <h2 className="judul-produk text-white">Produk Unggulan {namaUmkm}</h2>
 
+
       <div className="carousel carousel-container">
         <button className="arrow-btn left" onClick={prevSlide}>‹</button>
 

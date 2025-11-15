@@ -22,6 +22,7 @@ const DetailUmkm = () => {
   }
 
   const umkm = state.data;
+  console.log(umkm)
   const images = Array.isArray(umkm.gambar) ? umkm.gambar : [umkm.gambar];
 
   const prevSlide = () => {
