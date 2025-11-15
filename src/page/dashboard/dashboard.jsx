@@ -51,7 +51,7 @@ const Dashboard = () => {
                 </section>
 
                 <section id='section-search' className='w-100 d-flex section-search'>
-                    <img src={BackgroundSearch} alt="search-bar-img" className='w-100 position-relative'/>
+                    <img src={BackgroundSearch} alt="search-bar-img" className='w-100 position-reltive'/>
                     <div className="overlay w-100 d-flex text-center">
                         <p>Kunjungi, Kenali, Dukung<br /> UMKM Indonesia</p>
                         <div className="input-group">
@@ -93,8 +93,13 @@ const Dashboard = () => {
                     </div>
                     <div className="produk d-flex justify-content-center">
                         {filteredData.length > 0 ? (
-                          filteredData.map((umkm) => (
-                            <ProductCard key={umkm.id} title={umkm.nama} imgSrc={umkm.gambar} onClick={()=>handleClick(`detail-umkm`, umkm)}/>
+                          filteredData.slice(0, 10).map((umkm) => (
+                            <ProductCard
+                              key={umkm.id}
+                              title={umkm.nama}
+                              imgSrc={umkm.gambar}
+                              onClick={() => handleClick(`detail-umkm`, umkm)}
+                            />
                           ))
                         ) : (
                           <p className="text-center text-muted mt-3">Tidak ada hasil ditemukan.</p>

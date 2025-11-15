@@ -33,13 +33,14 @@ const ProdukUnggulan = ({ namaUmkm, handleClick }) => {
     <section className="section-produk-unggulan w-100">
       <h2 className="judul-produk text-white">Produk Unggulan {namaUmkm}</h2>
 
-      <div className="carousel main-carousel">
+
+      <div className="carousel carousel-container">
         <button className="arrow-btn left" onClick={prevSlide}>‹</button>
 
         <div className="carousel-track">
           {produkList.map((produk, idx) => {
             const position = (idx - currentIndex + produkList.length) % produkList.length;
-            let className = "slide main-slide";
+            let className = "slide-container";
 
             if (position === 0) className += " active";
             else if (position === 1) className += " next";
