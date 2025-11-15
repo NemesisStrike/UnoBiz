@@ -1,6 +1,6 @@
 import { useState } from "react";
 import DataProduk from "../../json/DataProduk.json";
-import "./MenuUmkm.css";
+import "./menuUmkm.css";
 
 const MenuUmkm = ({ namaUmkm }) => {
   const produkList = DataProduk[namaUmkm] || [];
